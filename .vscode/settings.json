@@ -128,4 +128,11 @@
         "**/packages/**": true,
     },
     "sarif-viewer.connectToGithubCodeScanning": "on",
+    "markdownlint.run": "onType",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "always"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    }
 }
