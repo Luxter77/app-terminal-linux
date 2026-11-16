@@ -99,14 +99,22 @@ This applies to everything that lives in any repository or new files that have n
 
 ## CONTEXT.md
 
-You are operating in a workspace that uses a centralized context file. You must strictly adhere to the following rules regarding memory and context tracking.
+You are operating in a workspace that uses centralized project context. You must strictly adhere to the following rules regarding memory and context tracking.
 
 Do not use your built in memory tools, internal knowledge saving functions, or proprietary state storage to record information about this repository, user preferences, or architectural decisions. Treat your internal memory as ephemeral.
 
-Your only source of persistent memory for this project is the file located at .agents/CONTEXT.md. You must read .agents/CONTEXT.md at the beginning of every task or session before taking any other action, analyzing code, or proposing solutions.
+Your persistent project context lives in .agents/CONTEXT.md and relevant topic notes under .agents/CONTEXT.md.d/.
 
-Only store information directly relevant to the architecture, business logic, and coding conventions of this specific repository. Do not record conversation history, agent-specific tool configurations, generalized programming knowledge, task execution logs, or raw memory dumps in .agents/CONTEXT.md. Ensure the file remains a clean, repository-specific reference document.
+At the beginning of every task or session, read .agents/CONTEXT.md before any other action, code analysis, or proposal. Read a supplemental note only when it applies to the current task.
 
-When you establish new architectural decisions, identify recurring user preferences, or learn important repository specific rules, you must update .agents/CONTEXT.md directly using standard file editing tools. Do not save this information to your internal memory tools.
+Keep .agents/CONTEXT.md concise. Put detailed, topic-specific information in .agents/CONTEXT.md.d/ when it would make the main context too large or does not apply to most tasks. Use these notes to preserve findings before removing files, workflows, or dependencies.
 
-If you are asked to remember something, write it to .agents/CONTEXT.md. If you cannot find a specific rule, check .agents/CONTEXT.md before asking the user.
+Add a reference in .agents/CONTEXT.md when a supplemental note should be easy to discover. Do not require agents to read every supplemental note at the start of each task.
+
+Only store information directly relevant to this repository's architecture, business logic, and coding conventions. Do not record conversation history, agent-specific tool configurations, generalized programming knowledge, task execution logs, or raw memory dumps.
+
+When you establish an architectural decision, identify a recurring user preference, or learn an important repository-specific rule, update .agents/CONTEXT.md. Add detailed supporting information to a relevant supplemental note when useful.
+
+The root .gitignore currently ignores .agents/CONTEXT.md and .agents/CONTEXT.md.d/. Keep these notes local unless the user explicitly authorizes a change to that tracking behavior.
+
+If you are asked to remember something, record it in .agents/CONTEXT.md or a relevant supplemental note. Check these files before asking the user about a project-specific rule.
