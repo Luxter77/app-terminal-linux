@@ -18,11 +18,11 @@
     "MD040": true, // Disallow ``` blocks in md files with no language specified
     "MD049": { "style": "underscore" },
 
-    // TODO: MD024 needs to be re-enabled / disallowed at some point in the future
+    // TODO: #7 MD024 needs to be re-enabled / disallowed at some point in the future
     "MD024": false, // Allow multiple headings with same content
-    // TODO: MD029 needs to be re-enabled / disallowed at some point in the future
+    // TODO: #7 MD029 needs to be re-enabled / disallowed at some point in the future
     "MD029": false, // Ordered list item prefix
-    // TODO: MD033 needs to be re-enabled / disallowed at some point in the future
+    // TODO: #7 MD033 needs to be re-enabled / disallowed at some point in the future
     "MD033": false // Allow inline HTML
   },
   "ignores": [
