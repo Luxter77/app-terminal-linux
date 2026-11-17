@@ -1,30 +1,12 @@
 # NOTICES AND INFORMATION
-Do Not Translate or Localize
-
-This software incorporates material from third parties. Microsoft makes certain
-open source code available at [http://3rdpartysource.microsoft.com](http://3rdpartysource.microsoft.com), or you may
-send a check or money order for US $5.00, including the product name, the open
-source component name, and version number, to:
-
-```
-Source Code Compliance Team
-Microsoft Corporation
-One Microsoft Way
-Redmond, WA 98052
-USA
-```
-
-Notwithstanding any other terms, you may reverse engineer this software to the
-extent required to debug changes to any libraries licensed under the GNU Lesser
-General Public License.
 
 ## jsoncpp
 
-**Source**: [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)
+Source: [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)
 
 ### License
 
-```
+```text
 Copyright (c) 2007-2010 Baptiste Lepilleur and The JsonCpp Authors
 
 Permission is hereby granted, free of charge, to any person
@@ -50,11 +32,11 @@ SOFTWARE.
 
 ## chromium/base/numerics
 
-**Source**: [https://github.com/chromium/chromium/tree/master/base/numerics](https://github.com/chromium/chromium/tree/master/base/numerics)
+Source: [https://github.com/chromium/chromium/tree/master/base/numerics](https://github.com/chromium/chromium/tree/master/base/numerics)
 
 ### License
 
-```
+```text
 Copyright 2015 The Chromium Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -86,11 +68,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## \{fmt\}
 
-**Source**: [https://github.com/fmtlib/fmt](https://github.com/fmtlib/fmt)
+Source: [https://github.com/fmtlib/fmt](https://github.com/fmtlib/fmt)
 
 ### License
 
-```
+```text
 MIT License
 
 Copyright (c) 2012 - present, Victor Zverovich
@@ -124,11 +106,11 @@ without including the above copyright and permission notices.
 
 ## interval_tree
 
-**Source**: [https://github.com/ekg/IntervalTree](https://github.com/ekg/IntervalTree)
+Source: [https://github.com/ekg/IntervalTree](https://github.com/ekg/IntervalTree)
 
 ### License
 
-```
+```text
 Copyright (c) 2011 Erik Garrison
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -152,11 +134,11 @@ SOFTWARE.
 
 ## PCG Random Number Generation
 
-**Source**: [https://github.com/imneme/pcg-cpp](https://github.com/imneme/pcg-cpp)
+Source: [https://github.com/imneme/pcg-cpp](https://github.com/imneme/pcg-cpp)
 
 ### License
 
-```
+```text
 Copyright (c) 2014-2017 Melissa O'Neill and PCG Project contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -180,11 +162,11 @@ SOFTWARE.
 
 ## wyhash
 
-**Source**: [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash)
+Source: [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash)
 
 ### License
 
-```
+```text
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -213,11 +195,11 @@ For more information, please refer to <http://unlicense.org/>
 
 ## stb
 
-**Source**: [https://github.com/nothings/stb](https://github.com/nothings/stb)
+Source: [https://github.com/nothings/stb](https://github.com/nothings/stb)
 
 ### License
 
-```
+```text
 This is free and unencumbered software released into the public domain.
 Anyone is free to copy, modify, publish, use, compile, sell, or distribute this
 software, either in source code form or as a compiled binary, for any purpose,
@@ -237,11 +219,12 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 ## Oklab
-**Source**: [https://bottosson.github.io/posts/oklab/](https://bottosson.github.io/posts/oklab/)
+
+Source: [https://bottosson.github.io/posts/oklab/](https://bottosson.github.io/posts/oklab/)
 
 ### License
 
-```
+```text
 Copyright (c) 2020 Björn Ottosson
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -261,11 +244,12 @@ SOFTWARE.
 ```
 
 ## ColorBrewer
-**Source**: [https://colorbrewer2.org/](https://colorbrewer2.org/)
+
+Source: [https://colorbrewer2.org/](https://colorbrewer2.org/)
 
 ### License
 
-```
+```text
 Apache-Style Software License for ColorBrewer software and ColorBrewer Color Schemes
 
 Copyright (c) 2002 Cynthia Brewer, Mark Harrower, and The Pennsylvania State University.
@@ -282,11 +266,12 @@ specific language governing permissions and limitations under the License.
 ```
 
 ## cmark
-**Source**: [https://github.com/commonmark/cmark](https://github.com/commonmark/cmark)
+
+Source: [https://github.com/commonmark/cmark](https://github.com/commonmark/cmark)
 
 ### License
 
-```
+```text
 Copyright (c) 2014, John MacFarlane
 
 All rights reserved.
@@ -463,7 +448,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### License
 
-```
+```text
 The MIT License (MIT)
 
 Copyright (c) 2013-2024 Junegunn Choi
@@ -488,29 +473,29 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-# Microsoft Open Source
+## Microsoft Open Source
 
 This product also incorporates source code from other Microsoft open source projects, all licensed under the MIT license.
 
-## `GSL`
+### `GSL`
 
-**Source**: [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL)
+Source: [https://github.com/microsoft/GSL](https://github.com/microsoft/GSL)
 
-## `Microsoft-UI-XAML`
+### `Microsoft-UI-XAML`
 
-**Source**: [https://github.com/microsoft/Microsoft-UI-XAML](https://github.com/microsoft/Microsoft-UI-XAML)
+Source: [https://github.com/microsoft/Microsoft-UI-XAML](https://github.com/microsoft/Microsoft-UI-XAML)
 
-## `VirtualDesktopUtils`
+### `VirtualDesktopUtils`
 
-**Source**: [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
+Source: [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
-## `wil`
+### `wil`
 
-**Source**: [https://github.com/microsoft/wil](https://github.com/microsoft/wil)
+Source: [https://github.com/microsoft/wil](https://github.com/microsoft/wil)
 
-### License
+#### License
 
-```
+```text
 The MIT License
 
 Copyright (c) Microsoft Corporation. All rights reserved.

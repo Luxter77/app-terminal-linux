@@ -287,3 +287,4 @@ profiles.json
 # MSBuildCache
 /MSBuildCacheLogs/
 .agents/CONTEXT.md
+.agents/CONTEXT.md.d
