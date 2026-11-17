@@ -280,10 +280,17 @@ async function runMarkdownlint() {
   console.log("Running markdownlint --fix...");
   const { $ } = await import("bun");
   try {
-    const result = await $`bun x markdownlint-cli2 --fix --dot ".agents/**/*.md"`.cwd(ROOT).quiet();
-    console.log(result.stdout.toString());
-    if (result.stderr.toString()) {
-      console.error(result.stderr.toString());
+    const result = await $`bun x markdownlint-cli2 --fix --dot ".agents/**/*.md"`.cwd(ROOT).quiet().nothrow();
+    const stdout = result.stdout.toString();
+    const stderr = result.stderr.toString().trimEnd();
+    if (stdout) {
+      console.log(stdout);
+    }
+    if (stderr) {
+      const label = result.exitCode === 1 ? "markdownlint reported issues" : "markdownlint command failed";
+      console.error(`${label}:\n${stderr.split("\n").map((line) => `  ${line}`).join("\n")}`);
+    } else if (result.exitCode !== 0) {
+      console.error(`markdownlint exited with code ${result.exitCode} without stderr output.`);
     }
     return result.exitCode === 0;
   } catch (error) {
