@@ -840,11 +840,7 @@
     <File Path="src/wap-common.build.pre.props" />
   </Folder>
   <Folder Name="/_Build Common/Scripts/">
-    <File Path="build/scripts/Create-AppxBundle.ps1" />
-    <File Path="build/scripts/Index-Pdbs.ps1" />
     <File Path="build/scripts/Invoke-FormattingCheck.ps1" />
-    <File Path="build/scripts/Run-Tests.ps1" />
-    <File Path="build/scripts/Test-WindowsTerminalPackage.ps1" />
   </Folder>
   <Folder Name="/_Build Common/YAML/">
     <File Path="build/pipelines/ci.yml" />
